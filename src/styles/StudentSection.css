@@ -1,0 +1,188 @@
+
+.students-blogs-container {
+  background: #ffffff;
+  padding: 80px 0;
+  font-family: "Poppins", sans-serif;
+}
+
+
+.students-section {
+  text-align: center;
+  margin-bottom: 100px;
+  padding: 0 40px;
+}
+
+.students-section h2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #333333;
+  margin-bottom: 60px;
+  line-height: 1.4;
+}
+
+/* Company logos area */
+.company-logos {
+  max-width: 800px;
+  margin: 0 auto;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.blogs-section {
+  text-align: center;
+  padding: 0 40px;
+}
+
+.blogs-section h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 50px;
+}
+
+
+.blog-cards {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+
+.blog-card {
+  width: 300px;
+  height: 320px;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+}
+
+
+.blog-card-image {
+  width: 100%;
+  height: 100%;
+  background-color: #f5f5f5;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+}
+
+
+.blog-card-image::before {
+  content: '';
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 50px;
+  height: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.blog-card-image::after {
+  content: '';
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  width: 60px;
+  height: 35px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+.blog-card:first-child .blog-card-image::before {
+  background: rgba(120, 119, 198, 0.2);
+}
+
+.blog-card:last-child .blog-card-image::before {
+  background: rgba(255, 119, 198, 0.2);
+}
+
+
+.blog-card-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.9) 0%,
+    rgba(0, 0, 0, 0.7) 50%,
+    transparent 100%
+  );
+  color: #ffffff;
+  padding: 30px 20px 20px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.3;
+  text-align: left;
+}
+
+
+.blog-card-image .top-elements {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  display: flex;
+  gap: 5px;
+}
+
+.blog-card-image .dot {
+  width: 8px;
+  height: 8px;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+}
+
+
+@media (max-width: 768px) {
+  .students-blogs-container {
+    padding: 60px 0;
+  }
+  
+  .students-section,
+  .blogs-section {
+    padding: 0 20px;
+  }
+  
+  .students-section h2 {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  .blogs-section h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  .blog-cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .blog-card {
+    width: 100%;
+    max-width: 320px;
+  }
+  
+  .company-logos {
+    height: 80px;
+  }
+}

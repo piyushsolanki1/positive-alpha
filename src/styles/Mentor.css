@@ -1,0 +1,131 @@
+/* src/Mentor.css */
+/* .mentor-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: 'Arial', sans-serif;
+  color: #2c3e50;
+  background: white;
+}
+
+.header-section {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.main-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #7f8c8d;
+  line-height: 1.5;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.mentors-section {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-bottom: 50px;
+}
+
+.mentor-card {
+  text-align: center;
+}
+
+.placeholder-text {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: #2c3e50;
+}
+
+.stars {
+  font-size: 20px;
+  letter-spacing: 3px;
+  color: #e67e22;
+}
+
+.stats-section {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.stat-item {
+  flex: 1;
+}
+
+.stat-value {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #2c3e50;
+}
+
+.stat-description {
+  font-size: 14px;
+  color: #7f8c8d;
+  line-height: 1.4;
+}
+
+.search-section {
+  text-align: center;
+  margin-bottom: 50px;
+  padding: 20px 0;
+  border-top: 1px solid #ecf0f1;
+  border-bottom: 1px solid #ecf0f1;
+}
+
+.search-text {
+  font-size: 18px;
+  color: #7f8c8d;
+  font-style: italic;
+}
+
+.footer-section {
+  text-align: center;
+}
+
+.footer-text {
+  font-size: 15px;
+  color: #7f8c8d;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.bold-shadow {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0 8px;
+  color: #2c3e50;
+}
+
+.location {
+  font-size: 14px;
+  color: #7f8c8d;
+}
+
+
+@media (max-width: 768px) {
+  .mentors-section {
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .stats-section {
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .main-title {
+    font-size: 28px;
+  }
+} */

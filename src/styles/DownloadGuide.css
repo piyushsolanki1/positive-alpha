@@ -1,0 +1,114 @@
+.download-section {
+  position: relative;
+  background: linear-gradient(to bottom, #d5ebfa, #fde2f3);
+  padding: 60px 80px;
+  border-radius: 0px;
+  margin: 0 auto 80px auto;   
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+  height: 600px;
+}
+
+
+
+
+.download-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.download-top h2 {
+  font-size: 26px;
+  font-weight: 800;
+  color: #000;
+}
+
+.download-btn {
+  background: #000;
+  color: #fff;
+  padding: 14px 32px;
+  border: none;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.25);
+}
+
+.divider {
+  border: none;
+  height: 1px;
+  background: #000;
+  margin-bottom: 40px;
+}
+
+
+.qna-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.qna-left {
+  flex: 1;
+}
+
+.qna-left h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #111;
+}
+
+.qna-box {
+  background: #fff;
+  padding: 16px 20px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #222;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+  cursor: pointer;
+}
+
+.arrow {
+  font-size: 18px;
+  font-weight: bold;
+  color: #34a9e8;
+}
+
+
+.qna-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.funny-img {
+  max-width: 90%;
+  height: auto;
+}
+
+
+.paper {
+  position: absolute;
+  width: 80px;
+  opacity: 0.9;
+}
+
+.paper1 {
+  bottom: 20px;
+  left: 60px;
+}
+
+.paper2 {
+  bottom: 40px;
+  left: 200px;
+}

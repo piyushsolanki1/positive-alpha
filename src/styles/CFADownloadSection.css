@@ -1,0 +1,308 @@
+.cfa-download-section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg,#eca4b6, #bedbea,#f3f2f2);
+  padding: 60px 40px;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+}
+
+.main-heading h1 {
+  font-size: 36px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 60px;
+  color: #222;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.bg-shape-left,
+.bg-shape-right {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #eebfce, #f1a6c1);
+  filter: blur(120px);
+  opacity: 0.6;
+  z-index: 0;
+  animation: float 6s ease-in-out infinite alternate;
+}
+
+.bg-shape-left {
+  top: -80px;
+  left: -120px;
+}
+
+.bg-shape-right {
+  bottom: -80px;
+  right: -120px;
+}
+
+.ebooks-card,
+.notes-card {
+  background: linear-gradient(145deg, #fff, #f1f1f1);
+  border: 2px solid #000;
+  border-radius: 16px;
+  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.15),
+              -4px -4px 12px rgba(255, 255, 255, 0.8);
+  padding: 18px;
+  transition: transform 0.3s;
+  z-index: 2;
+}
+
+.ebooks-card:hover,
+.notes-card:hover {
+  transform: translateY(-5px) scale(1.02);
+}
+
+.ebooks-card {
+  position: absolute;
+  top: 140px;
+  left: 60px;
+  width: 220px;
+}
+
+.ebooks-card-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #e91e63;
+}
+
+.notes-card {
+  position: absolute;
+  bottom: 180px;
+  right: 80px;
+  width: 220px;
+}
+
+.notes-card-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #3f51b5;
+}
+
+.book-stack {
+  position: absolute;
+  top: 120px;
+  right: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  z-index: 2;
+  transform: rotate(-5deg);
+}
+
+.book {
+  width: 130px;
+  height: 24px;
+  border-radius: 6px;
+  border: 2px solid #000;
+  box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.purple-book { background: linear-gradient(135deg, #ab47bc, #8e24aa); }
+.red-book { background: linear-gradient(135deg, #ef5350, #c62828); }
+.blue-book { background: linear-gradient(135deg, #42a5f5, #1565c0); }
+
+.laptop {
+  position: relative;
+  margin: 0 auto;
+  width: 240px;
+  height: 150px;
+  background: linear-gradient(145deg, #ddd, #f5f5f5);
+  border: 4px solid #000;
+  border-radius: 10px;
+  z-index: 2;
+  box-shadow: 6px 10px 20px rgba(0, 0, 0, 0.25);
+  animation: float 5s ease-in-out infinite alternate;
+}
+
+.laptop-screen {
+  width: 180px;
+  height: 100px;
+  background: #fff;
+  margin: 15px auto;
+  border: 2px solid #000;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.network-svg {
+  stroke: #000;
+  stroke-width: 2;
+  fill: #f48fb1;
+}
+
+.person {
+  position: absolute;
+  right: 200px;
+  top: 260px;
+  z-index: 2;
+  animation: float 7s ease-in-out infinite alternate;
+}
+
+.head {
+  width: 65px;
+  height: 65px;
+  background: linear-gradient(145deg, #ffe0b2, #ffcc80);
+  border-radius: 50%;
+  border: 2px solid #000;
+  position: relative;
+  box-shadow: inset -3px -3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.hair {
+  width: 65px;
+  height: 22px;
+  background: #000;
+  border-radius: 12px 12px 0 0;
+}
+
+.eye {
+  width: 7px;
+  height: 7px;
+  background: #000;
+  border-radius: 50%;
+  position: absolute;
+  top: 28px;
+}
+
+.left-eye { left: 16px; }
+.right-eye { right: 16px; }
+
+.mouth {
+  width: 22px;
+  height: 5px;
+  background: #000;
+  border-radius: 3px;
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+}
+
+.body {
+  width: 65px;
+  height: 90px;
+  background: linear-gradient(145deg, #2196f3, #1976d2);
+  border: 2px solid #000;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 6px;
+}
+
+.arm {
+  width: 18px;
+  height: 55px;
+  background: #ffe0b2;
+  border: 2px solid #000;
+  position: absolute;
+  top: 12px;
+  border-radius: 8px;
+}
+
+.left-arm { left: -22px; }
+.right-arm { right: -22px; }
+
+.phone {
+  width: 22px;
+  height: 32px;
+  background: #000;
+  position: absolute;
+  right: -34px;
+  top: 20px;
+  border-radius: 6px;
+}
+
+.pants {
+  width: 65px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.leg {
+  width: 22px;
+  height: 55px;
+  background: linear-gradient(145deg, #555, #333);
+  border: 2px solid #000;
+  border-radius: 6px;
+}
+
+.speech-bubble {
+  position: absolute;
+  top: 210px;
+  right: 140px;
+  background: #fff;
+  border: 2px solid #000;
+  padding: 12px 18px;
+  border-radius: 14px;
+  box-shadow: 4px 6px 12px rgba(0,0,0,0.2);
+  animation: float 6s ease-in-out infinite alternate;
+}
+
+.speech-tail {
+  position: absolute;
+  bottom: -10px;
+  left: 25px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #000;
+}
+
+.quiz-section {
+  margin-top: 120px;
+  text-align: center;
+}
+
+.quiz-section h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.quiz-section button {
+  background: linear-gradient(135deg, #1f1619, #151012);
+  color: #fff;
+  border: none;
+  padding: 14px 30px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, background 0.3s;
+}
+
+.quiz-section button:hover {
+  background: linear-gradient(135deg, #f06292, #d81b60);
+  transform: scale(1.05);
+}
+
+.decorative-arrow {
+  position: absolute;
+  bottom: 70px;
+  left: 100px;
+  font-size: 44px;
+  color: #e91e63;
+  font-weight: bold;
+  transform: rotate(15deg);
+  animation: bounce 1.5s infinite;
+}
+
+@keyframes float {
+  from { transform: translateY(0); }
+  to { transform: translateY(-15px); }
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0) rotate(15deg); }
+  50% { transform: translateY(-10px) rotate(15deg); }
+}
